@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SignupPage from "./pages/SignupPage.js";
-
-import Dashboard from "./pages/DashBoard.js";
+import SignupPage from "./pages/SignupPage";
+import Dashboard from "./pages/DashBoard";
 
 export default function App() {
   return (
